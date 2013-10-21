@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FF8067ED-1F18-436A-ADF2-029761320124}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>CommonLib</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CommonLib</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/CommonLib/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDEF\CDEFMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDEF\CDEFMessage0310.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDEF\CDEFMessage0319.cs" />
+    <Compile Include="CDEF\CDEFMessage0319R.cs" />
+    <Compile Include="CDEF\CDEFMessage0415.cs" />
+    <Compile Include="CDEF\CDEFMessage0415R.cs" />
+    <Compile Include="CDEF\CDEFMessage0416.cs" />
+    <Compile Include="CDEF\CDEFMessage0603.cs" />
+    <Compile Include="CDEF\CDEFMessage0604.cs" />
+    <Compile Include="CDEF\CDEFMessage0604R.cs" />
+    <Compile Include="CDEF\CDEFMessage060B.cs" />
+    <Compile Include="CDEF\CDEFMessage060BR.cs" />
+    <Compile Include="CDEF\CDEFMessage0630.cs" />
+    <Compile Include="CDEF\CDEFMessage0630R.cs" />
+    <Compile Include="CDEF\CDEFMessage0634.cs" />
+    <Compile Include="CDEF\CDEFMessage0D18.cs" />
+    <Compile Include="CDEF\CDEFMessage0D4F.cs" />
+    <Compile Include="CDEF\CDEFMessage0E03_4.cs" />
+    <Compile Include="CDEF\CDEFMessage0E03_4R.cs" />
+    <Compile Include="CDEF\CDEFMessage0E07.cs" />
+    <Compile Include="CDEF\CDEFMessage0E08.cs" />
+    <Compile Include="CDEF\CDEFMessage1319.cs" />
+    <Compile Include="CDEF\CDEFMessage1608.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDEF\CDEFMessage1621.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDEF\CDEFMessage1624.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDEF\CDEFMessage1625.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDEF\CDEFMessage16E0.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDEF\CDEFMessage16E1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDEF\CDEFMessage3106.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDEF\CDEFMessage3107.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDEF\CDEFMessage3108.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDEF\CDEFMessage3220.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDEF\CDEFMessage3308.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDEF\CDEFMessage3308R.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDEF\CDEFMessage3309.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDEF\CDEFMessage3316.cs" />
+    <Compile Include="CDEF\CDEFMessage3806.cs" />
+    <Compile Include="CDEF\CDEFMessage4002.cs" />
+    <Compile Include="CDEF\CDEFMessage4002R.cs" />
+    <Compile Include="CDEF\CDEFMessageEmpty.cs" />
+    <Compile Include="CDEF\CDEFMessageEmptyWithTimeUTC.cs" />
+    <Compile Include="CDEF\CdefTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDEF\CDEF_Amounts_Roles_etc.cs" />
+    <Compile Include="CDEF\CommsTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDEF\CDEFMessage0603R.cs" />
+    <Compile Include="CDEF\CDEFMessage0403.cs" />
+    <Compile Include="CDEF\Conversions.cs" />
+    <Compile Include="CDEF\SessionDescriptor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDEF\TimeLord.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Comms\ByteBufferQ.cs" />
+    <Compile Include="Comms\CDEFConsumer.cs" />
+    <Compile Include="Comms\CDEFSession.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Comms\CDEF_TCPConnection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Comms\ICDEFSession.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Comms\IConnection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Comms\IConsumer.cs" />
+    <Compile Include="Comms\IListenerHandler.cs" />
+    <Compile Include="Comms\TCPConnection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Comms\TCPListener.cs" />
+    <Compile Include="DataAccess\AccessLog.cs" />
+    <Compile Include="DataAccess\DataAccess.cs" />
+    <Compile Include="DataAccess\DataError.cs" />
+    <Compile Include="DataAccess\DataOperation.cs" />
+    <Compile Include="DataAccess\DataResult.cs" />
+    <Compile Include="DataAccess\Query.cs" />
+    <Compile Include="DataAccess\QueryResult.cs" />
+    <Compile Include="DataAccess\ResultFactory.cs" />
+    <Compile Include="DataAccess\ResultFactoryBase.cs" />
+    <Compile Include="DataAccess\Update.cs" />
+    <Compile Include="DataAccess\UpdateResult.cs" />
+    <Compile Include="DB\Database.cs" />
+    <Compile Include="Dispatcher\BaseHandler.cs" />
+    <Compile Include="Dispatcher\Dispatcher.cs" />
+    <Compile Include="Utilities\ConfigReader.cs" />
+    <Compile Include="Utilities\FileHandler.cs" />
+    <Compile Include="Utilities\FTP_Handler.cs" />
+    <Compile Include="Utilities\GUI_Helper.cs" />
+    <Compile Include="Utilities\ILogger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utilities\FileReadWriteState.cs" />
+    <Compile Include="Utilities\IRaiseEvent.cs" />
+    <Compile Include="Utilities\Logger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utilities\SMTPemailSender.cs" />
+    <Compile Include="Utilities\SNMPAlert.cs" />
+    <Compile Include="Utilities\TextFormatter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
