@@ -74,6 +74,10 @@ and the HandleEvent function can now process in its own thread:
 
 This has the effect of serialising all events and eliminate multithreading and locking issues. I have tested it on applications with hundreds of TCP connections processing large amounts of data.
 
-## Comms Library
+## Comms Library limitation
 The Comms library code, as presented, does not compile as I have not included the message library, which is propriety software. Simply modify it to incorporate you own message library format.
+
+## Other features
+The common library contains many other useful classes, such as TCPConnection classes with payload processing and various Database and e-mailing helper classes.
+
  
